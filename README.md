@@ -14,7 +14,7 @@ Issue numbers are permanent and sequential — this is how AIP numbers stay stab
 ## What's NOT here
 
 Plan file content, implementation artifacts, hooks, and source code live in
-[agent-improvement](https://github.com/joeblackwaslike/agent-improvement).
+[agent-improvement](https://github.com/joeblackwaslike/agent-improvement) repo.
 
 ## AIP lifecycle
 
@@ -34,6 +34,6 @@ Plan file content, implementation artifacts, hooks, and source code live in
 
 ## Creating a new AIP
 
-Use the `/new-plan` command in the `agent-improvement` repo. It opens an issue here automatically.
+Use the `/new-plan` command in the `agent-improvement` repo. It opens an issue in this repo automatically.
 The issue number becomes the AIP number. The plan file is created at
 `docs/improvement-plans/{NNNN}-{slug}.md` in `agent-improvement`.
